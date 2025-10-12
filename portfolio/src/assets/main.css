@@ -1,0 +1,19 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global layout */
+.text-gray-custom {
+    --tw-text-opacity: 1;
+    color: rgb(115 115 115 / var(--tw-text-opacity, 1));
+    display: flex;
+    justify-content: center;
+}
+
+.text-gray-custom-light {
+    --tw-text-opacity: 0.6;
+    color: rgb(115 115 115 / var(--tw-text-opacity, 1));
+}
