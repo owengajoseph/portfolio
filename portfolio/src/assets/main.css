@@ -17,3 +17,33 @@
     --tw-text-opacity: 0.6;
     color: rgb(115 115 115 / var(--tw-text-opacity, 1));
 }
+
+/* Color variables and forced dark background */
+:root {
+    --bg: #171717;      /* requested background */
+    --im-and-role: #737373; /* "im" and "full stack developer" */
+    --name-color: #e4e4e7;  /* "owenga joseph" */
+
+    /* Toned-down text colors for lower brightness on the dark background */
+    --text: #c7ccd1;   /* primary text — reduced brightness */
+    --muted: #8e969e;  /* secondary / muted text */
+    --link: #7ea2ff;   /* links (kept readable but not too bright) */
+
+    /* Font variables */
+    --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-newsreader: 'Newsreader', Georgia, serif;
+}
+
+/* Force dark background */
+html, body {
+    background-color: var(--bg) !important;
+    color: var(--text);
+    min-height: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: dark !important;
+}
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:wght@400;500;600&display=swap');
