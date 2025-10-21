@@ -21,13 +21,14 @@
                 that
                 sparked my desire to understand how things work under the hood. One day, I hope to build or contribute
                 to
-                something truly impactful — something that can make a real difference in soci
+                something truly impactful — something that can make a real difference in society
             </p>
 
             <!-- social links centered relative to the .child (paragraph container) -->
             <ul class="social-links" aria-label="social links">
                 <li><a href="https://github.com/USERNAME" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/USERNAME" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></li>
                 <li><a href="https://twitter.com/USERNAME" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             </ul>
 
@@ -39,7 +40,8 @@
 
 <style scoped>
 .parent {
-    margin-top: 3rem; /* simple space above the About section */
+    margin-top: 3rem;
+    /* simple space above the About section */
 }
 
 .child {
@@ -54,7 +56,8 @@
 .child h6 {
     margin: 0 0 0.75rem 0;
     font-size: 0.9rem;
-    text-transform: lowercase; /* changed: force lower-case "about" */
+    text-transform: lowercase;
+    /* changed: force lower-case "about" */
     letter-spacing: 0.08em;
     color: var(--muted, #444);
     font-weight: 600;
@@ -97,7 +100,7 @@
 .social-links a:hover,
 .social-links a:focus {
     color: var(--text, #111);
-    background: rgba(0,0,0,0.04);
+    background: rgba(0, 0, 0, 0.04);
     outline: none;
 }
 
@@ -105,14 +108,16 @@
 .about-underline {
     height: 1px;
     background: var(--muted, #e0e0e0);
-    width: 100%;        /* span the full width of .child (matches paragraphs) */
-    max-width: none;    /* remove the small cap so the line can be longer */
+    width: 100%;
+    /* span the full width of .child (matches paragraphs) */
+    max-width: none;
+    /* remove the small cap so the line can be longer */
     margin: 1rem 0 0;
     border-radius: 1px;
 }
 
 /* ensure consistent gap between children inside the about section */
-.child > * + * {
+.child>*+* {
     margin-top: 0;
 }
 

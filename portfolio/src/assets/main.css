@@ -20,14 +20,20 @@
 
 /* Color variables and forced dark background */
 :root {
-    --bg: #171717;      /* requested background */
-    --im-and-role: #737373; /* "im" and "full stack developer" */
-    --name-color: #e4e4e7;  /* "owenga joseph" */
+    --bg: #171717;
+    /* requested background */
+    --im-and-role: #737373;
+    /* "im" and "full stack developer" */
+    --name-color: #e4e4e7;
+    /* "owenga joseph" */
 
     /* Toned-down text colors for lower brightness on the dark background */
-    --text: #c7ccd1;   /* primary text — reduced brightness */
-    --muted: #8e969e;  /* secondary / muted text */
-    --link: #7ea2ff;   /* links (kept readable but not too bright) */
+    --text: #c7ccd1;
+    /* primary text — reduced brightness */
+    --muted: #8e969e;
+    /* secondary / muted text */
+    --link: #7ea2ff;
+    /* links (kept readable but not too bright) */
 
     /* Font variables */
     --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
@@ -35,7 +41,8 @@
 }
 
 /* Force dark background */
-html, body {
+html,
+body {
     background-color: var(--bg) !important;
     color: var(--text);
     min-height: 100%;
@@ -45,5 +52,24 @@ html, body {
     color-scheme: dark !important;
 }
 
-/* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:wght@400;500;600&display=swap');
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+
+
+.newsreader {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    line-height: 40px;
+    font-size: 36px;
+    font-style: normal;
+    color: rgb(228, 228, 231);
+}

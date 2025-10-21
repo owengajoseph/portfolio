@@ -1,6 +1,7 @@
 <template class='body-flex'>
   <Intro></Intro>
   <About></About>
+  <Project></Project>
 </template>
 
 
@@ -8,9 +9,8 @@
 <script setup>
 import Intro from './components/Intro.vue';
 import About from './components/About.vue';
+import Project from './components/Project.vue';
 
 </script>
 
-<style>
-
-</style>
+<style></style>
