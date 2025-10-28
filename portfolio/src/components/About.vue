@@ -39,7 +39,10 @@
 </template>
 
 <style scoped>
+section p {
+    width: 700px;
 
+}
 </style>
 <script setup>
 import '../assets/main.css'

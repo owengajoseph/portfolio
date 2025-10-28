@@ -19,9 +19,8 @@ import Project from './components/Project.vue';
 .body-flex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   border: 2px dotted rgb(96 139 168);
   height: 100vh;
-  width: 800px;
 }
 </style>
