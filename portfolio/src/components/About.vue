@@ -39,21 +39,6 @@
 </template>
 
 <style scoped>
-.parent {
-    margin-top: 3rem;
-    /* simple space above the About section */
-}
-
-.child {
-    max-width: 700px;
-    margin: 0 auto;
-    /* keep the block centered on the page */
-    padding: 0 1rem;
-    /* inner horizontal padding for small screens */
-}
-
-/* heading label styling to separate from paragraphs */
-/* TODO:i should change this. it not supposed to be a heding semantically */
 
 </style>
 <script setup>
