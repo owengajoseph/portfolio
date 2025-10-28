@@ -1,7 +1,9 @@
-<template class='body-flex'>
-  <Intro></Intro>
-  <About></About>
-  <Project></Project>
+<template>
+  <div class="body-flex">
+    <Intro></Intro>
+    <About></About>
+    <Project></Project>
+  </div>
 </template>
 
 
@@ -13,4 +15,6 @@ import Project from './components/Project.vue';
 
 </script>
 
-<style></style>
+<style>
+
+</style>
