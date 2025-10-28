@@ -16,5 +16,14 @@ import Project from './components/Project.vue';
 </script>
 
 <style>
+.body-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 66%;
+  padding: 10px;
+}
+
 
 </style>
