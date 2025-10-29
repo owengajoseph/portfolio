@@ -11,6 +11,15 @@
 </template>
 
 <style scoped>
+.newsreader {
+    font-weight: 400;
+    font-family: newsreader;
+    font-size: 36px;
+    line-height: 40px;
+    color: rgb(216, 213, 207);
+}
+
+
 .heading {
     font-family: var(--font-inter);
     font-weight: 400;

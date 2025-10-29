@@ -5,7 +5,8 @@
             <p class="about-paragraph">
                 I’m a software engineer who fell in love with computers after realizing they could do far more than just
                 gaming. Over time, that curiosity grew into a passion for building systems and solving complex problems.
-                I’m skilled in system design and versatile with Python, JavaScript, Go, and Linux, among other technologies.
+                I’m skilled in system design and versatile with Python, JavaScript, Go, and Linux, among other
+                technologies.
             </p>
             <p class="about-paragraph">
                 I’m an avid learner with a deep sense of curiosity, always eager to explore new tools and approaches.
@@ -14,14 +15,16 @@
             </p>
             <p class="about-paragraph">
                 My journey into tech began with a fascination for the command line — that simple yet powerful interface
-                that sparked my desire to understand how things work under the hood. One day, I hope to build or contribute
+                that sparked my desire to understand how things work under the hood. One day, I hope to build or
+                contribute
                 to something truly impactful — something that can make a real difference in society.
             </p>
 
             <!-- social links centered relative to the paragraph container (horizontal layout) -->
             <ul class="social-links" aria-label="social links">
                 <li><a href="https://github.com/USERNAME" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/USERNAME" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></li>
                 <li><a href="https://twitter.com/USERNAME" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             </ul>
 
@@ -48,7 +51,8 @@
     max-width: 700px;
     margin: 0 auto;
     padding: 0 1rem;
-    color: var(--text, #c7ccd1); /* base text color used by underline */
+    color: var(--text, #c7ccd1);
+    /* base text color used by underline */
 }
 
 /* paragraphs use Inter */
@@ -66,8 +70,10 @@
 /* social links: horizontal layout, centered relative to the paragraph container */
 .social-links {
     display: flex;
-    justify-content: center; /* center the links horizontally */
-    gap: 1rem; /* space between links */
+    justify-content: center;
+    /* center the links horizontally */
+    gap: 1rem;
+    /* space between links */
     padding: 0;
     margin: 0.75rem 0 0;
     list-style: none;
@@ -93,10 +99,23 @@
 
 /* responsive adjustments */
 @media (max-width: 640px) {
-    .about-section { padding: 0 0.75rem; }
-    .about-paragraph { font-size: 13px; line-height: 1.6; }
-    .social-links { gap: 0.5rem; margin-top: 0.75rem; }
-    .about-underline { margin-top: 0.75rem; }
+    .about-section {
+        padding: 0 0.75rem;
+    }
+
+    .about-paragraph {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .social-links {
+        gap: 0.5rem;
+        margin-top: 0.75rem;
+    }
+
+    .about-underline {
+        margin-top: 0.75rem;
+    }
 }
 </style>
 
