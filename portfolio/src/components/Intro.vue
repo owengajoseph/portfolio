@@ -11,7 +11,14 @@
 </template>
 
 <style scoped>
-
+.heading {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    color: rgb(159, 151, 139);
+    line-height: 36px;
+    font-size: 30px;
+}
 </style>
 <script setup>
+import '../assets/main.css'
 </script>
