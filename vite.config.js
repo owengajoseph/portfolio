@@ -2,8 +2,8 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import vueDevTools from 'vite-plugin-vue-devtools'
 
+// import vueDevTools from 'vite-plugin-vue-devtools'  // ← Remove this line
 // import { VitePWA } from 'vite-plugin-pwa' // Optional: enable when ready
 
 // https://vite.dev/config/
@@ -11,7 +11,7 @@ export default defineConfig({
   base: '/',
   plugins: [
     vue(),
-    vueDevTools(),
+    // vueDevTools(),  // ← Remove this line
     // VitePWA({
     //   registerType: 'autoUpdate',
     //   includeAssets: ['favicon.ico'],
@@ -34,7 +34,7 @@ export default defineConfig({
   },
   build: {
     target: 'es2018',
-    assetsInlineLimit: 2048, // 2kb: inline only very small assets
+    assetsInlineLimit: 2048,
     cssMinify: true,
     sourcemap: false,
     rollupOptions: {
