@@ -1,0 +1,134 @@
+:root {
+  --font-inter: 'Inter', sans-serif;
+  color-scheme: light dark;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Theming and responsive enhancements */
+/* Base background and text to avoid white flashes on mobile */
+html, body {
+  background-color: rgb(17 19 19);
+  color: #c7ccd1;
+}
+
+/* Light theme overrides */
+@media (prefers-color-scheme: light) {
+  html, body {
+    background-color: #ffffff;
+    color: #111827;
+  }
+  :root {
+    --text: #111827;
+    --muted: #6b7280;
+    --surface: #ffffff;
+    --border: rgba(17, 24, 39, 0.15);
+  }
+}
+
+/* Dark theme tokens and base colors */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: rgb(17 19 19);
+    color: #c7ccd1;
+  }
+  :root {
+    --text: #c7ccd1;
+    --muted: rgb(159, 151, 131);
+    --surface: #0f172a;
+    --border: rgba(255, 255, 255, 0.15);
+  }
+  a {
+    color: #9bb0c8;
+  }
+  hr, .divider, .about-underline, .project-underline, .library-underline {
+    background-color: var(--text, #c7ccd1);
+    border-color: var(--border, rgba(255, 255, 255, 0.15));
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Responsive typography and spacing */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+}
+
+/* Global paragraph styling and section spacing */
+p {
+  color: rgb(174 167 156);
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+.intro,
+.about-section,
+.project-section,
+.library-section,
+.music-player {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+h1, h2, h3 {
+  margin: 0 0 0.75rem 0;
+}
+
+ul {
+  margin: 0.5rem 0 0 0;
+}
+
+.about-underline,
+.project-underline,
+.library-underline,
+.divider {
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .intro,
+  .about-section,
+  .project-section,
+  .library-section,
+  .music-player {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  p {
+    margin-bottom: 0.875rem;
+  }
+}
