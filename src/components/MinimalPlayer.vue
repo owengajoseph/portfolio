@@ -5,7 +5,8 @@
         <div class="content">
             <div class="label">listening to</div>
 
-            <div class="track" role="button" tabindex="0" @click="toggle" @keydown.enter="toggle" @keydown.space.prevent="toggle">
+            <div class="track" role="button" tabindex="0" @click="toggle" @keydown.enter="toggle"
+                @keydown.space.prevent="toggle">
                 nothing
             </div>
 
@@ -14,15 +15,8 @@
                 <span>{{ duration }}</span>
             </div>
 
-            <div
-                class="bar"
-                role="progressbar"
-                :aria-valuenow="Math.floor(current)"
-                :aria-valuemin="0"
-                :aria-valuemax="Math.floor(total)"
-                :aria-valuetext="`${currentTime} of ${duration}`"
-                @click="seek"
-            >
+            <div class="bar" role="progressbar" :aria-valuenow="Math.floor(current)" :aria-valuemin="0"
+                :aria-valuemax="Math.floor(total)" :aria-valuetext="`${currentTime} of ${duration}`" @click="seek">
                 <div class="fill" :style="{ width: progress + '%' }"></div>
             </div>
         </div>
@@ -88,7 +82,7 @@ const progress = computed(() =>
 
 .divider {
     height: 1px;
-    background: rgba(243, 4, 4, 0.92);
+    background: color(#c7ccd1);
     margin: 20px 0;
 }
 

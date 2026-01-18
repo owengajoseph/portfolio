@@ -23,7 +23,6 @@ import MinimalPlayer from './components/MinimalPlayer.vue';
 .body-flex {
   display: flex;
   flex-direction: column;
-  border: 2px dotted rgb(96 139 168);
   justify-content: center;
   align-items: center;
   margin: 12px;
