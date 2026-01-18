@@ -32,7 +32,7 @@
                     lightweight, it shows my ability to build clear, functional features focused on user convenience.
                 </p>
                 <ul class="project-links" aria-label="project links">
-                    <li><a href="https://github.com/USERNAME/repo2" target="_blank"
+                    <li><a href="https://github.com/owengajoseph/" target="_blank"
                             rel="noopener noreferrer">Repository</a></li>
                     <li><a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a></li>
                 </ul>
@@ -55,7 +55,7 @@
     font-weight: 500;
     text-transform: lowercase;
     margin-bottom: 0.75rem 0px;
-    
+
 
 }
 

@@ -22,10 +22,10 @@
 
             <!-- social links centered relative to the paragraph container (horizontal layout) -->
             <ul class="social-links" aria-label="social links">
-                <li><a href="https://github.com/USERNAME" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://github.com/owengajoseph" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/USERNAME" target="_blank"
                         rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="https://twitter.com/USERNAME" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://twitter.com/user426__" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             </ul>
 
             <!-- decorative underline (matches paragraph/container width and text color) -->
