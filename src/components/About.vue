@@ -23,7 +23,7 @@
             <!-- social links centered relative to the paragraph container (horizontal layout) -->
             <ul class="social-links" aria-label="social links">
                 <li><a href="https://github.com/owengajoseph" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/USERNAME" target="_blank"
+                <li><a href="https://www.linkedin.com/in/owenga-joseph-098422299/" target="_blank"
                         rel="noopener noreferrer">LinkedIn</a></li>
                 <li><a href="https://twitter.com/user426__" target="_blank" rel="noopener noreferrer">Twitter</a></li>
             </ul>

@@ -20,7 +20,7 @@
                 <ul class="project-links" aria-label="project links">
                     <li><a href=https://github.com/owengajoseph/microservices/tree/main/microservicess/university_erp_system
                             target="_blank" rel="noopener noreferrer">Repository</a></li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a></li>
+                    <!-- <li><a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a></li> -->
                 </ul>
             </div>
 
@@ -34,7 +34,7 @@
                 <ul class="project-links" aria-label="project links">
                     <li><a href="https://github.com/owengajoseph/" target="_blank"
                             rel="noopener noreferrer">Repository</a></li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a></li>
+                    <!-- <li><a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a></li> -->
                 </ul>
             </div>
 
